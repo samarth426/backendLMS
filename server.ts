@@ -7,7 +7,7 @@ import express, { Request, Response, NextFunction } from "express";
 import path from "path";
 import dotenv from "dotenv";
 import { createServer as createViteServer } from "vite";
-import apiRouter from "./src/backend/routes.js";
+import apiRouter from "./backend/routes.js";
 
 // Load Environment Configuration
 dotenv.config();
